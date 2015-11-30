@@ -1,0 +1,68 @@
+/*Table of contents
+1. Base colours
+2. Colour tints
+	2.1 Red tints
+	2.2 Green tints
+	2.3 Blue tints
+	2.4 Black tints
+3. Colour shades
+	3.1 Red shades
+	3.2 White shades
+	3.3 Grey shades
+	3.4 Yellow shades
+=====================================================================================================
+*/
+
+/*1. Base colours
+=====================================================================================================*/
+$red: #fd665d;
+$black: #000;
+$green: #639495;
+$blue: #4a90e2;
+$white: #ffffff;
+$grey: #d8d8d8;
+$yellow: #f6da8f;
+
+/*2. Colour tints
+=====================================================================================================*/
+/*2.1 Red tints*/
+$redTint25: tint($red, 25%);
+$redTint50: tint($red, 50%);
+$redTint75: tint($red, 75%);
+
+/*2.2 Green tints*/
+$greenTint25: tint($green, 25%);
+$greenTint50: tint($green, 50%);
+$greenTint75: tint($green, 75%);
+
+/*2.3 Blue tints*/
+$blueTint25: tint($blue, 25%);
+$blueTint50: tint($blue, 50%);
+$blueTint75: tint($blue, 75%);
+
+/*2.4 Black tints*/
+$blackTint25: tint($black, 25%);
+$blackTint50: tint($black, 50%);
+$blackTint75: tint($black, 75%);
+
+/*3. Colour shades
+=====================================================================================================*/
+/*3.1 Red shades*/
+$redShade5: shade($red, 5%);
+$redShade10: shade($red, 10%);
+$redShade15: shade($red, 15%);
+
+/*3.2 White shades*/
+$whiteShade5: shade($white, 5%);
+$whiteShade10: shade($white, 10%);
+$whiteShade15: shade($white, 15%);
+
+/*3.3 Grey shades*/
+$greyShade5: shade($grey, 5%);
+$greyShade10: shade($grey, 10%);
+$greyShade15: shade($grey, 15%);
+
+/*3.4 Yellow shades*/
+$yellowShade5: shade($yellow, 5%);
+$yellowShade10: shade($yellow, 10%);
+$yellowShade15: shade($yellow, 15%);

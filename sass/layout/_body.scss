@@ -1,0 +1,33 @@
+/*Table of contents
+1. Body main styles
+2. Section styles
+	2.1 Default section styles
+	2.2 Odd sections
+	2.3 Even sections
+=====================================================================================================
+*/
+
+/*1. Body main styles
+=====================================================================================================*/
+main {
+	img {
+		margin: 0 auto;
+	}
+}
+
+/*2. Section styles
+=====================================================================================================*/
+/*2.1 Default section styles*/
+section {
+	background-color: $white;
+}
+/*2.2 Odd sections*/
+.odd-section {
+	background-color: $whiteShade5;
+	@include background-image(linear-gradient($white, $grey));
+}
+/*2.3 Even sectionx*/
+.even-section {
+	background-color: $grey;
+	@include background-image(linear-gradient($white, $greenTint50));
+}

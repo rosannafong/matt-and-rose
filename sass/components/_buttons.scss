@@ -1,0 +1,26 @@
+/*Table of contents
+1. Button styles
+=====================================================================================================
+*/
+
+/*1. Button styles
+=====================================================================================================*/
+button,
+.button {
+	background: none;
+	color: $redShade15;
+	border: 2px solid $redShade15;
+	font-size: 1em;
+	padding: 1em;
+	@include border-radius(0.5em);
+}
+button:hover,
+.button:hover {
+	border: 2px solid $blackTint25;
+	color: $blackTint25;
+}
+button:focus,
+.button:focus {
+	outline: 1px solid $blackTint25;
+	outline-offset: 2px;
+}
